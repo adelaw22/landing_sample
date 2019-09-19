@@ -1,0 +1,268 @@
+body{
+    padding:0;
+    margin:0;
+}
+
+.mainbody{
+font-family: 'Roboto',sans-serif;
+padding:auto;
+margin:auto;
+background-image: url('images/bg.jpg');
+background-size:cover;
+background-color:rgba(46, 45, 45, 0.78);
+background-blend-mode: overlay;
+color:white;
+background-repeat: no-repeat;
+height:700px;
+width:100%;
+}
+.logo{
+    width:40%;
+    height:60px;
+    float:left;
+}
+.top_nav {
+font-size:20px;
+float:right;
+text-align:center;
+padding: 20px;
+
+}
+.top_nav a{
+    text-decoration:none;
+    color:whitesmoke;
+    padding:28px;
+}
+.top_nav a:hover{
+   color:rgb(108, 122, 197);
+}
+
+.top_head{
+    font-size:45px;
+    color:whitesmoke;
+}
+ .logo .logo_img{
+    float:left;
+    margin-left:20px;
+    margin-top:20px;
+    width: 40px;
+    height: 40px;
+}
+.logo h1{
+    display:inline-block;
+    margin-top:15px;
+    margin-left:12px;
+}
+.btn_nav{
+     background-color: rgb(50, 153, 231);
+    color:whitesmoke;
+    border:none;
+    text-align: center;
+    font-size:16px;
+    padding:15px 25px;
+}
+.btn_nav:hover{
+    background-color:red;
+}
+header{
+    width:100%;
+    height:40px
+}
+.txt_right{
+    float: left;
+    margin-top:200px;
+    margin-left: 100px;
+} 
+.txt_right h2{
+    margin-bottom: 0px;
+    font-size:60px;
+}
+.txt_right p{
+   margin-top:0px;
+   font-size:50px;
+   margin-bottom:20px;
+
+}
+.txt_right .btn_txt{
+    background-color: transparent;
+    color:whitesmoke;
+    text-align:center;
+    font-size:16px;
+    padding:12px 25px;
+    border:2px solid whitesmoke;
+}
+.txt_right .btn_txt:hover{
+    background-color:rgb(182, 178, 178);
+    color:rgb(36, 34, 34);
+}
+.form_table{
+    float:right;
+    margin-top:100px;
+    margin-right:170px;
+
+}
+.form_table h3{
+    font-size: 25px;
+    margin-left:60px;
+} 
+.main_form input{
+   margin-bottom: 10px;
+   padding:14px ;
+   padding-left:10px;
+   padding-right:120px;
+   background-color: transparent;
+   border:1px solid rgb(228, 223, 223);
+   text-align: left;
+   color:rgb(255, 255, 255);
+}
+.form_btn{
+    background-color: rgb(50, 153, 231);
+    color:whitesmoke;
+    border:none;
+    text-align: center;
+    font-size:16px;
+    padding:13px 90px;
+}
+::placeholder{
+    color:rgb(180, 175, 175);
+}
+@media only screen and (max-width:375px) {
+    .top_nav {
+        display: none;
+
+    }
+
+    .logo {
+        width: 68%;
+    }
+
+    .logo .logo_img {
+        height: 30px;
+        width: 30px;
+    }
+
+    .top_head {
+        font-size: 30px
+    }
+
+    .mainbody {
+        height: 800px;
+    }
+
+    .mainbody {
+        background-position: center;
+    }
+
+    .txt_right {
+        margin-top: 98px;
+        margin-left: 20px;
+    }
+
+    .txt_right h2 {
+        font-size: 37px;
+    }
+
+    .txt_right p {
+        font-size: 28px;
+    }
+
+    .txt_right .btn_txt {
+        font-size: 11px;
+    }
+
+    .form_table {
+        margin-top: 50px;
+        margin-right: 50px;
+        height: 330px
+    }
+
+}
+
+@media only screen and (min-width:376px) and (max-width:767px) {
+    .mainbody {
+        background-position: center;
+        height: 900px
+    }
+
+    .top_nav {
+        display: none;
+    }
+
+    .logo .top_head {
+        font-size: 30px;
+        margin-top: 20px;
+    }
+
+    .logo_img {
+        margin-left: 71px;
+    }
+
+    .logo {
+        width: 50%;
+        margin-left: 1px;
+        margin-top: 20px;
+    }
+
+    .txt_right h2 {
+        font-size: 35px;
+    }
+
+    .txt_right p {
+        font-size: 28px
+    }
+
+    .txt_right {
+        margin-top: 120px;
+        margin-left: 20px;
+    }
+
+    .txt_right .btn_txt {
+        font-size: 11px;
+    }
+
+    .form_table {
+        margin-right: 57px;
+    }
+
+    .main_form input {
+        padding-right: 150px;
+    }
+
+    .main_form .form_btn {
+        padding-right: 120px;
+    }
+
+}
+@media only screen and (min-width:768px) and (max-width:1024px){
+    .mainbody{
+        background-position: center;
+        background-size: cover;
+        height:1370px;
+    }
+    .top_nav{
+        display:none;
+    }
+    .logo{
+        margin-top: 20px;
+        margin-left:20px;
+    }
+    .logo_img{
+        height:
+    }
+    .txt_right{
+        margin-left:28px;
+    }
+    .form_table{
+        margin-right:340px;
+    }
+    .form_table h3{
+        font-size:38px
+    }
+    .form_table .main_form input{
+        padding-right: 170px;
+    }
+    .main_form .form_btn{
+        padding-right:140px;
+    }
+
+}
